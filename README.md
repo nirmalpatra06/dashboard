@@ -1,6 +1,6 @@
 # Dashboard
 
-This project is built using React, Chart.js, Redux Toolkit and Tailwind CSS.
+This project is built using React, Chart.js, Redux Toolkit and Tailwind CSS. Created a Json file to build this dashboard dynamically.
 
 ## Demo
 
@@ -33,23 +33,33 @@ https://dashboard-six-phi-69.vercel.app/
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/nirmalpatra06/dashboard.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd dashboard
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+  npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+```bash
+  npm install chart.js react-chartjs-2
+```
+```bash
+  npm i react-icons
+```
+```bash
+  npm install @reduxjs/toolkit react-redux 
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  npm run dev
 ```
